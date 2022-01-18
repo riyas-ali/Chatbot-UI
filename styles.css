@@ -1,7 +1,7 @@
 body { font-family: 'Roboto', sans-serif;}
 
 /* Common Header */
-.design-one {height:100vh; position:relative;}
+.design-one, .design-two {height:100vh; position:relative;}
 .chatbot {width:400px; height:530px; position:absolute; right:20px; bottom:20px; box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.25); border-radius:10px;}
 .chatbot .header {border-bottom:1px solid rgba(0, 0, 0, 0.15);}
 .p-image {padding:5px 0;}
@@ -25,6 +25,25 @@ body { font-family: 'Roboto', sans-serif;}
 .headding p {padding:0 40px 15px 0; font-size:15px; line-height:30px;}
 .headding a {padding:8px 35px; color:#fff; border:1px solid #fff; border-radius:25px;}
 .headding a:hover {text-decoration:none; background-color:#fff; color:#0f0145;}
+
+/* Design-two */
+.design-two .chatbot { height:550px;}
+.para-gray { background-color: #f5f5f5; padding: 10px 15px 10px 15px; border-radius: 10px; font-size: 15px; margin-bottom: 10px;}
+.para-gray p { margin-bottom: 0; color: rgba(0, 0, 0, 0.70);}
+.controls-space { height: 30px; background-color: #263238;}
+.slider-content { border: 2px solid rgba(0, 0, 0, 0.25);}
+.slider-head {background-color: #36464e; color: #fff; text-align: center; padding: 10px 0; border: 2px solid #646f74;}
+.slider-content .col-xl-4 { font-size: 14px; padding: 5px 0 0px 15px;}
+.slider-content .col-xl-8 { font-size: 13px; color: #929393; padding: 5px 15px 5px 10px;}
+.slider-content .col-xl-8 p { margin-bottom: 0;}
+.chat-content {  height: 407px; overflow-y: hidden;}
+.gray-bg { background-color: #eceff1;}
+.chat-content .carousel-indicators {transform:translateY(-183px) translateX(230px); width: fit-content;}
+.chat-content .carousel-indicators li {width:8px; height:8px; border-radius:100%; background-color:#fff; opacity: 1;}
+.chat-content .carousel-indicators .active {background-color:#FFF; opacity: 0.6;}
+.chat-content .carousel-control-next,.chat-content .carousel-control-prev {top:-35px; width:fit-content; height:fit-content; padding:8px 15px; opacity: 1;}
+.chat-content .carousel-control-next {left:330px;}
+.chat-content .carousel-control-prev {left:245px;}
 
 /* Responsive */
 @media (max-width:767px) {
